@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .fila {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .campo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+  }
+  
+  .campo:last-child {
+    margin-right: 0;
+  }
+  
+  .campo input,
+  .campo select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .campo input:invalid,
+  .campo select:invalid {
+    border-color: red;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    height: 12px;
+  }
+  
+  .acciones {
+    text-align: right;
+  }
+  
+  .acciones button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .acciones button:first-child {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  input.error-border {
+    border: 2px solid red;
+  }
+  
+  input.valid-border {
+    border: 2px solid green;
+  }
+  
+  input.valid-border {
+  border: 2px solid green;
+  }
+
+  input.error-border {
+  border: 2px solid red;
+  }
+
+  .invalido {
+  border: 2px solid red !important;
+  background-color: #ffe5e5;
+  }
+
+  .valido {
+  border: 2px solid green !important;
+  background-color: #e5ffe5;
+  }
